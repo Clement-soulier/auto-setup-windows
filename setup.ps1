@@ -1,4 +1,4 @@
-# Demander à l'utilisateur les droits administratifs pour exécuter le script
+#request administrator permissions
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Output "Please run this script with administrator privilege"
     exit

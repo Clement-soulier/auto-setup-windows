@@ -1,0 +1,44 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "files.autoSave": "onFocusChange",
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "Tokyo Night",
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 28,
+  "editor.fontSize": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "editor.selectionBackground": "#3D59A1",
+      "editor.selectionHighlightBackground": "#3D59A1"
+    }
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "vim.handleKeys": {
+    "h": false,
+    "j": false,
+    "k": false,
+    "l": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["z", "z"],
+      "after": ["<Esc>"]
+    }
+  ]
+}

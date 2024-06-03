@@ -1,0 +1,78 @@
+﻿// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "revealFileInOS"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "h",
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "j",
+        "command": "list.focusDown",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusUp",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "l",
+        "command": "list.select",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    }
+]
+
+
+
+
+
+
+
